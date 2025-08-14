@@ -7,7 +7,7 @@
 //Teste larissa
 
 int main() {
-      //declaração das variáveis
+  //declaração das variáveis
   char estado1[8], estado2[8]; 
   char codigo1[4], codigo2[4];
   char cidade1[30], cidade2[30];
@@ -71,5 +71,5 @@ int main() {
   printf("PIB: %.2f\n", pib2);
   printf("Número de Pontos Turísticos: %d\n", numeroPontosTuristicos2);
 
-    return 0;
+  return 0;
 }
