@@ -52,7 +52,7 @@ int main() {
   printf("Digite o número de pontos turísticos : \n");
   scanf("%d", &numeroPontosTuristicos2);
   
-  //calculando a densidade populacional e pib per capita apos a entrada de dados
+  //calculando a densidade populacional e pib per capita apos a entrada dos dados
   float densidadePopulacional1, densidadePopulacional2;
   float pibPerCapita1, pibPerCapita2;
 
