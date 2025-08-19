@@ -114,6 +114,20 @@ int main() {
   printf("População: Carta 1 venceu (%d)\n", resultadoComparacaoPibPerCapita);
   printf("População: Carta 1 venceu (%d)\n", resultadoComparacaoSuperpoder);
   
+  // implementação de lógica de comparação usando laços 
+  // escolha de critério: POPULAÇAO
+
+  if (populacao1 > populacao2){
+    printf("Comparacao de cartas (Atributo - população)\n");
+    printf("Carta 1 = %s (%s) - %lu\n", cidade1, estado1, populacao1); 
+    printf("Carta 2 = %s (%s) - %lu\n", cidade2, estado2, populacao2);
+    printf("Resultado: Carta 1 - (%s) venceu!\n", cidade1); 
+  } else{
+    printf("Comparacao de cartas (Atributo - população)\n");
+    printf("Carta 1 = %s (%s) - %lu\n", cidade1, estado1, populacao1); 
+    printf("Carta 2 = %s (%s) - %lu\n", cidade2, estado2, populacao2);
+    printf("Resultado: Carta 2 - (%s) venceu!\n", cidade1); 
+  }
 
   return 0;
 }
